@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+html{
+    font-size: 62.5%;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    min-height: 100vh;
+
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 3rem;
+   
+  
+}
+
+header{
+    background: url(../images/bg-header-desktop.png) no-repeat center center;
+    background-size: cover; 
+    max-height: 363px;
+}
+
+header .container .intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 10rem;
+}
+
+header .container .intro .home{
+    padding-top: 6rem;
+}
+
+header .container .intro .home h1{
+    font-weight: 600;
+    font-size: 4rem;
+    color: var(--dark-grayish-blue);
+
+}
+
+header .container .intro .home p{
+    color: var(--grayish-blue);
+    max-width: 65rem;
+    padding-top: 2.5rem;
+}
+
+header .container .intro .home .download{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+    gap: 1.5rem;
+    
+    
+    
+}
+
+header .container .intro .home .download .btn-ios{
+    width: 40%;
+    background-color: var(--strong-cyan);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    border-radius: 50px;
+    color: #ffffff;
+    border-bottom: 0.3rem solid #2F9682;
+    box-shadow: 0.3rem 0.3rem 1.5rem #5DCCBC;
+}
+
+header .container .intro .home .download .btn-mac{
+    width: 40%;
+    background-color: var(--light-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    border-radius: 50px;
+    color: #ffffff;
+    border-bottom: 0.3rem solid #5161DA;
+    box-shadow: 0.3rem 0.3rem 1.5rem #8896FF;
+
+   
+}
+
+header .container .intro .home .download .btn-ios:hover{
+    opacity: 0.8;
+    
+}
+
+header .container .intro .home .download .btn-mac:hover{
+    opacity: 0.8;
+    
+}
+
+
+
+
+
+
+
