@@ -24,8 +24,10 @@ body{
 
 header{
     background: url(../images/bg-header-desktop.png) no-repeat center center;
-    background-size: cover; 
-    max-height: 363px;
+    background-size: cover;
+    height: 363px; 
+    width: 100%;
+    /* max-height: 363px; */
 }
 
 header .container .intro{
