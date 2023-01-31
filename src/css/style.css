@@ -111,7 +111,8 @@ main .access .container .info{
 
 main .hero .container .info h2,
 main .hero .container .info-services .services .description h3,
-main .access .container .info h2{
+main .access .container .info h2,
+main .tools .container .info h2{
     color: var(--dark-grayish-blue);
 }
 
@@ -158,10 +159,24 @@ main .access .container .info img{
 }
 
 
+main .tools .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
 
+main .tools .container .info p{
+    color: var(--grayish-blue);
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    max-width: 62rem;
+}
 
-
-
+main .tools .container .info-tools{
+    display: flex;
+}
 
 
 
