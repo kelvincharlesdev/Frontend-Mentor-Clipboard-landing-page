@@ -25,7 +25,7 @@ body{
 header{
     background: url(../images/bg-header-desktop.png) no-repeat center center;
     background-size: cover; 
-    max-height: 363px;
+    /* max-height: 363px; */
 }
 
 header .container .intro{
@@ -92,15 +92,63 @@ header .container .intro .home .download .btn-mac{
    
 }
 
-header .container .intro .home .download .btn-ios:hover{
-    opacity: 0.8;
-    
-}
-
+header .container .intro .home .download .btn-ios:hover,
 header .container .intro .home .download .btn-mac:hover{
     opacity: 0.8;
     
 }
+
+main .hero .container .info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 3rem;
+}
+
+main .hero .container .info h2,
+main .hero .container .info-services .services .description h3{
+    color: var(--dark-grayish-blue);
+}
+
+main .hero .container .info p{
+    color: var(--grayish-blue);
+    font-size: 1.6rem;
+    max-width: 64rem;
+}
+
+main .hero .container .info-services{
+    display: flex;
+    padding-top: 5rem;
+    gap: 10rem;
+}
+
+main .hero .container .info-services img{
+    width: 50%;
+    margin-left: -10rem;
+}
+
+main .hero .container .info-services .services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    
+}
+
+main .hero .container .info-services .services .description p{
+    color: var(--grayish-blue);
+    font-size: 1.4rem;
+    max-width: 30rem;
+    padding-top: 1.5rem;
+}
+
+
+
+
+
+
 
 
 
