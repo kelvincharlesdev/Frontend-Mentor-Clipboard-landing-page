@@ -25,7 +25,7 @@ body{
 header{
     background: url(../images/bg-header-desktop.png) no-repeat center center;
     background-size: cover; 
-    /* max-height: 363px; */
+    max-height: 363px;
 }
 
 header .container .intro{
@@ -96,6 +96,10 @@ header .container .intro .home .download .btn-ios:hover,
 header .container .intro .home .download .btn-mac:hover{
     opacity: 0.8;
     
+}
+
+main{
+    margin-top: 26rem;
 }
 
 main .hero .container .info{
