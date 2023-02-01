@@ -68,8 +68,7 @@ main .home .container .transfer .download{
     
 }
 
-header .container .intro .home .download .btn-ios,
-main .home .container .transfer .download .btn-ios{
+header .container .intro .home .download .btn-ios{
     width: 40%;
     background-color: var(--strong-cyan);
     display: flex;
@@ -82,8 +81,7 @@ main .home .container .transfer .download .btn-ios{
     box-shadow: 0.3rem 0.3rem 1.5rem #5DCCBC;
 }
 
-header .container .intro .home .download .btn-mac,
-main .home .container .transfer .download .btn-mac{
+header .container .intro .home .download .btn-mac{
     width: 40%;
     background-color: var(--light-blue);
     display: flex;
@@ -212,8 +210,28 @@ main .tools .container .marks .logo img{
     max-width: 90%;
 }
 
+main .home .container .transfer .download .btn-mac{
+    width: 60%;
+    background-color: var(--light-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    border-radius: 50px;
+    color: #ffffff;
+    border-bottom: 0.3rem solid #5161DA;
+    box-shadow: 0.3rem 0.3rem 1.5rem #8896FF;
+}
 
-
-
-
-
+main .home .container .transfer .download .btn-ios{
+    width: 60%;
+    background-color: var(--strong-cyan);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    border-radius: 50px;
+    color: #ffffff;
+    border-bottom: 0.3rem solid #2F9682;
+    box-shadow: 0.3rem 0.3rem 1.5rem #5DCCBC;
+}
