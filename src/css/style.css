@@ -193,6 +193,17 @@ main .tools .container .info-tools .tools-list p{
     max-width: 31rem;
 }
 
+main .tools .container .marks .logo{
+    display: flex;
+    gap: 6rem;
+    padding-top: 15rem;
+}
+
+main .tools .container .marks .logo img{
+    max-width: 90%;
+}
+
+
 
 
 
