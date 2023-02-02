@@ -1,0 +1,33 @@
+@media(max-width: 375px){
+    header{
+        background: url(../images/bg-header-mobile.png) no-repeat top;
+    }
+
+    header .container .intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    header .container .intro .home h1{
+        font-size: 3rem;
+    }
+
+    header .container .intro .home p{
+        font-size: 1.4rem;
+        width: 27rem;
+        
+    }
+
+    header .container .intro .home .download{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .container .intro .home .download .btn-ios,
+    header .container .intro .home .download .btn-mac
+    {
+       width: 100%;
+    }
+}   

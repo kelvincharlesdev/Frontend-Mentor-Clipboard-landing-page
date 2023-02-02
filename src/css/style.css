@@ -199,7 +199,7 @@ main .tools .container .marks .logo img {
 }
 
 footer {
-  background-color: #f5f6f8;
+  background-color: var(--footer);
 }
 
 footer .container {
