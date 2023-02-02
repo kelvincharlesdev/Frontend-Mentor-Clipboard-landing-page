@@ -1,237 +1,255 @@
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
 
-html{
-    font-size: 62.5%;
-    font-family: 'Bai Jamjuree', sans-serif;
+html {
+  font-size: 62.5%;
+  font-family: "Bai Jamjuree", sans-serif;
 }
 
-body{
-    font-family: 'Bai Jamjuree', sans-serif;
-    font-size: 1.8rem;
-    font-weight: 400;
-    min-height: 100vh;
-
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  min-height: 100vh;
 }
 
-.container{
-    max-width: 1440px;
-    margin: 0 auto;
-    width: 100%;
-    padding: 3rem;
-   
-  
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 3rem;
 }
 
-header{
-    background: url(../images/bg-header-desktop.png) no-repeat top;
-    background-size: 100% 363px;
+header {
+  background: url(../images/bg-header-desktop.png) no-repeat top;
+  background-size: 100% 363px;
 }
 
 header .container .intro,
-main .home .container .transfer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding-top: 10rem;
+main .home .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 10rem;
 }
 
-header .container .intro .home,
-main .home .container .transfer{
-    padding-top: 6rem;
+header .container .intro .home {
+  padding-top: 6rem;
 }
 
 header .container .intro .home h1,
-main .home .container .transfer h1{
-    font-weight: 600;
-    font-size: 4rem;
-    color: var(--dark-grayish-blue);
-
+main .home .container .transfer h1 {
+  font-weight: 600;
+  font-size: 4rem;
+  color: var(--dark-grayish-blue);
 }
 
 header .container .intro .home p,
-main .home .container .transfer p{
-    color: var(--grayish-blue);
-    max-width: 65rem;
-    padding-top: 2.5rem;
+main .home .container .transfer p {
+  color: var(--grayish-blue);
+  max-width: 65rem;
+  padding-top: 2.5rem;
 }
 
 header .container .intro .home .download,
-main .home .container .transfer .download{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5rem;
-    gap: 1.5rem;
-    
-    
-    
+main .home .container .transfer .download {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+  gap: 1.5rem;
 }
 
-header .container .intro .home .download .btn-ios{
-    width: 40%;
-    background-color: var(--strong-cyan);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 5rem;
-    border-radius: 50px;
-    color: #ffffff;
-    border-bottom: 0.3rem solid #2F9682;
-    box-shadow: 0.3rem 0.3rem 1.5rem #5DCCBC;
+header .container .intro .home .download .btn-ios,
+main .home .container .transfer .download .btn-ios {
+  width: 40%;
+  background-color: var(--strong-cyan);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  border-radius: 50px;
+  color: #ffffff;
+  border-bottom: 0.3rem solid #2f9682;
+  box-shadow: 0.3rem 0.3rem 1.5rem #5dccbc;
+  transition: 0.3s ease-in-out;
 }
 
-header .container .intro .home .download .btn-mac{
-    width: 40%;
-    background-color: var(--light-blue);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 5rem;
-    border-radius: 50px;
-    color: #ffffff;
-    border-bottom: 0.3rem solid #5161DA;
-    box-shadow: 0.3rem 0.3rem 1.5rem #8896FF;
-
-   
+header .container .intro .home .download .btn-mac,
+main .home .container .transfer .download .btn-mac {
+  width: 40%;
+  background-color: var(--light-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  border-radius: 50px;
+  color: #ffffff;
+  border-bottom: 0.3rem solid #5161da;
+  box-shadow: 0.3rem 0.3rem 1.5rem #8896ff;
+  transition: 0.3s ease-in-out;
 }
 
 header .container .intro .home .download .btn-ios:hover,
 header .container .intro .home .download .btn-mac:hover,
 main .home .container .transfer .download .btn-ios:hover,
-main .home .container .transfer .download .btn-mac:hover{
-    opacity: 0.8;
-    
+main .home .container .transfer .download .btn-mac:hover {
+  opacity: 0.8;
 }
 
-
 main .hero .container .info,
-main .access .container .info{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    gap: 3rem;
-    
+main .access .container .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 3rem;
 }
 
 main .hero .container .info h2,
 main .hero .container .info-services .services .description h3,
 main .access .container .info h2,
 main .tools .container .info h2,
-main .tools .container .info-tools .description h3{
-    color: var(--dark-grayish-blue);
+main .tools .container .info-tools .description h3 {
+  color: var(--dark-grayish-blue);
 }
 
 main .hero .container .info p,
-main .access .container .info p{
-    color: var(--grayish-blue);
-    font-size: 1.6rem;
-    max-width: 64rem;
+main .access .container .info p {
+  color: var(--grayish-blue);
+  font-size: 1.6rem;
+  max-width: 64rem;
 }
 
-main .hero .container .info-services{
-    display: flex;
-    padding-top: 5rem;
-    gap: 10rem;
+main .hero .container .info-services {
+  display: flex;
+  padding-top: 5rem;
+  gap: 10rem;
 }
 
-main .hero .container .info-services img{
-    width: 58%;
-    margin-left: -10rem;
+main .hero .container .info-services img {
+  width: 58%;
+  margin-left: -10rem;
 }
 
-main .hero .container .info-services .services{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 3rem;
-    
+main .hero .container .info-services .services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
 }
 
-main .hero .container .info-services .services .description p{
-    color: var(--grayish-blue);
-    font-size: 1.4rem;
-    max-width: 30rem;
-    padding-top: 1.5rem;
+main .hero .container .info-services .services .description p {
+  color: var(--grayish-blue);
+  font-size: 1.4rem;
+  max-width: 30rem;
+  padding-top: 1.5rem;
 }
 
 main .access {
-    padding-top: 5rem;
+  padding-top: 5rem;
 }
 
-main .access .container .info img{
-    max-width: 80%;
-    padding-top: 5rem;
+main .access .container .info img {
+  max-width: 80%;
+  padding-top: 5rem;
 }
 
-
-main .tools .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
+main .tools .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
 
-main .tools .container .info p{
-    color: var(--grayish-blue);
-    font-size: 1.5rem;
-    padding-top: 1rem;
-    max-width: 62rem;
+main .tools .container .info p {
+  color: var(--grayish-blue);
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  max-width: 62rem;
 }
 
-main .tools .container .info-tools{
-    display: flex;
-    gap: 1rem;
-    padding-top: 7rem;
+main .tools .container .info-tools {
+  display: flex;
+  gap: 1rem;
+  padding-top: 7rem;
 }
 
-main .tools .container .info-tools img{
-    padding-bottom: 3rem;
-
+main .tools .container .info-tools img {
+  padding-bottom: 3rem;
 }
 
-main .tools .container .info-tools .tools-list p{
-    color: var(--grayish-blue);
-    font-size: 1.4rem;
-    padding-top: 1rem;
-    max-width: 31rem;
+main .tools .container .info-tools .tools-list p {
+  color: var(--grayish-blue);
+  font-size: 1.4rem;
+  padding-top: 1rem;
+  max-width: 31rem;
 }
 
-main .tools .container .marks .logo{
-    display: flex;
-    gap: 6rem;
-    padding-top: 15rem;
+main .tools .container .marks .logo {
+  display: flex;
+  gap: 6rem;
+  padding-top: 15rem;
 }
 
-main .tools .container .marks .logo img{
-    max-width: 90%;
+main .tools .container .marks .logo img {
+  max-width: 90%;
 }
 
-main .home .container .transfer .download .btn-mac{
-    width: 60%;
-    background-color: var(--light-blue);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 5rem;
-    border-radius: 50px;
-    color: #ffffff;
-    border-bottom: 0.3rem solid #5161DA;
-    box-shadow: 0.3rem 0.3rem 1.5rem #8896FF;
+footer {
+  background-color: #f5f6f8;
 }
 
-main .home .container .transfer .download .btn-ios{
-    width: 60%;
-    background-color: var(--strong-cyan);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 5rem;
-    border-radius: 50px;
-    color: #ffffff;
-    border-bottom: 0.3rem solid #2F9682;
-    box-shadow: 0.3rem 0.3rem 1.5rem #5DCCBC;
+footer .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .container nav {
+  display: flex;
+  align-items: center;
+}
+
+footer .container nav .logo {
+  max-width: 100%;
+  padding-right: 5rem;
+}
+
+footer .container nav .logo img {
+  max-width: 40%;
+}
+
+footer .container nav .info {
+  display: flex;
+  gap: 8rem;
+  padding-top: 2rem;
+}
+
+footer .container nav .info ul li {
+  padding-bottom: 2rem;
+  font-size: 1.6rem;
+}
+
+footer .container .redes {
+  display: flex;
+  align-items: center;
+}
+
+footer .container .redes ul {
+  display: flex;
+  gap: 2rem;
+  font-size: 2.5rem;
+}
+
+footer .container .redes ul li i,
+footer .container nav .info ul li a {
+  color: var(--dark-grayish-blue);
+  transition: 0.2s ease-in-out;
+}
+
+footer .container nav .info ul li a:hover,
+footer .container .redes ul li i:hover {
+  color: var(--strong-cyan);
 }
