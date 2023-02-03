@@ -118,7 +118,7 @@ main .tools .container .info-tools .description h3 {
 main .hero .container .info p,
 main .access .container .info p {
   color: var(--grayish-blue);
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   max-width: 64rem;
 }
 
