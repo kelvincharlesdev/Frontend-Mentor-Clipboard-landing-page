@@ -1,24 +1,22 @@
 # 🖥️ Projeto Clipboard landing page
 
 ## ⌨ Descrição
-Projeto realizado em colaboração para que fosse feito treinamento de trabalho em equipe, git, github, gerenciamento de tempo e praticar as hardskills apresentadas abaixo.   
+
+Projeto realizado em colaboração para que fosse feito treinamento de trabalho em equipe, git, github, gerenciamento de tempo e praticar as hardskills apresentadas abaixo.
 
 ## ✍️ Processo
+
 - Marcação semântica HTML5
 - Propriedades personalizadas de CSS3
-- Flexbox  
+- Flexbox
 - Design responsivo
-    
-
 
 ## 🖱️ A página
-<img src="src/images/desktop-e-responsivo.gif" alt="Gif exibindo o desktop e versão mobile do site">   
 
-> Acesse online: 
-
- 
+<img src="src/design/clipboard-landing-page.gif" alt="Gif exibindo o desktop e versão mobile do site">
 
 ## 👩‍💻 Devs
+
 <table align="center">
   <tr>
     <td align="center">

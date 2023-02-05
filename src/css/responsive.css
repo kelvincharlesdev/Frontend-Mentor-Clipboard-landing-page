@@ -1,74 +1,90 @@
-@media(max-width: 768px){
-    header .container .intro .home .download,
-    main .home .container .transfer .download{
-        display: flex;
-        flex-direction: column;
-    }
+@media (max-width: 768px) {
+  header {
+    background: url(../images/bg-header-mobile.png) no-repeat top;
+    background-size: cover;
+  }
 
-    header .container .intro .home .download .btn-ios,
-    header .container .intro .home .download .btn-mac,
-    main .home .container .transfer .download .btn-ios,
-    main .home .container .transfer .download .btn-mac
-    {
-       width: 60%;
-    }
+  header .container .intro .home .download,
+  main .home .container .transfer .download {
+    display: flex;
+    flex-direction: column;
+  }
 
-    header .container .intro{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    header .container .intro .home h1,
-    main .home .container .transfer h1 {
-        font-size: 3rem;
-    }
+  header .container .intro .home .download .btn-ios,
+  header .container .intro .home .download .btn-mac,
+  main .home .container .transfer .download .btn-ios,
+  main .home .container .transfer .download .btn-mac {
+    width: 60%;
+  }
 
-    header .container .intro .home p,
-    main .home .container .transfer p{
-        font-size: 1.4rem;
-        
-    }
+  header .container .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    main .tools .container .marks .logo{
-        display: flex;
-        flex-direction: column;
-    }
+  header .container .intro .home h1,
+  main .home .container .transfer h1 {
+    font-size: 3rem;
+  }
 
-    footer .container,
-    footer .container nav,
-    footer .container nav .logo,
-    footer .container nav .info{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        gap: 1rem;
-    }
+  header .container .intro .home p,
+  main .home .container .transfer p {
+    font-size: 1.4rem;
+  }
 
-    footer .container nav .logo{
-        padding: 0;
-    }
+  main .hero .container .info-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
-    
+  main .hero .container .info-services img {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  main .tools .container .info-tools,
+  main .tools .container .marks .logo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main .tools .container .info-tools .tools-list {
+    margin-bottom: 5rem;
+  }
+
+  main .tools .container .marks .logo {
+    padding-top: 5rem;
+  }
+
+  footer .container,
+  footer .container nav,
+  footer .container nav .logo,
+  footer .container nav .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  footer .container nav .logo {
+    padding: 0;
+  }
 }
 
-@media(max-width: 470px){
-    header .container .intro .home .download .btn-ios,
-    header .container .intro .home .download .btn-mac,
-    main .home .container .transfer .download .btn-ios,
-    main .home .container .transfer .download .btn-mac
-    {
-       width: 100%;
-    }
+@media (max-width: 470px) {
+  header .container .intro .home .download .btn-ios,
+  header .container .intro .home .download .btn-mac,
+  main .home .container .transfer .download .btn-ios,
+  main .home .container .transfer .download .btn-mac {
+    width: 100%;
+  }
+}
 
-}  
-
-/* @media(max-width: 375px){
-    header{
-        background: url(../images/bg-header-mobile.png) no-repeat top;
-    }
-
-}    */
+@media (max-width: 375px) {
+}
